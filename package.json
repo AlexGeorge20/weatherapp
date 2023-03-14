@@ -1,0 +1,23 @@
+{
+  "name": "note-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "node ./weatherapp/app.js",
+    "start": "nodemon webserver/src/app.js -e js,hbs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.1.2",
+    "express": "^4.18.2",
+    "hbs": "^4.2.0",
+    "nodemon": "^2.0.20",
+    "postman-request": "^2.88.1-postman.32",
+    "validator": "^13.7.0",
+    "yargs": "^17.6.0"
+  },
+  "type": "module"
+}
